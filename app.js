@@ -95,6 +95,8 @@ function promptFor(question, valid){
   return response;
 }
 
+
+
 // helper function to pass into promptFor to validate yes/no answers
 function yesNo(input){
   return input.toLowerCase() == "yes" || input.toLowerCase() == "no";
